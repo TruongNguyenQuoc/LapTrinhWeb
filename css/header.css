@@ -1,0 +1,184 @@
+/* ===================
+      HEADER TOP
+   ====================*/
+.header-top {
+    font-size: 1.5rem;
+
+    color: var(--gray-color);
+    background: #f9f9f9;
+
+    padding: 0.5rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top__right {
+    display: flex;
+    align-items: center;
+
+    gap: 0 20px;
+}
+
+.line-style + .line-style {
+    padding-left: 30px;
+
+    border-left: 1px solid var(--lineBorder-color);
+}
+
+.line-style .register {
+    color: var(--hover-color);
+}
+
+.line-style .register:hover {
+    color: var(--white-color);
+}
+
+.line-style a {
+    text-decoration: none;
+    color: var(--gray-color);
+}
+
+.header-icons {
+    display: flex;
+    gap: 0 30px;
+    font-size: 2rem;
+}
+
+.header-icons__item a {
+    color: var(--black-color);
+}
+
+.header-freeCall span {
+    padding: 5px;
+}
+
+.header-freeCall .register {
+    font-weight: bold;
+}
+
+/* ===================
+      HEADER NAV MENU
+   ====================*/
+.header-navMenu {
+    margin-top: 20px;
+
+    font-size: 1.5rem;
+}
+.header-navMenu .header-container{
+    gap: 0 40px;
+    justify-content: unset;
+}
+.header-menu {
+    font-size: 3.2rem;
+}
+
+.header-logo {
+    margin-left: -10px;
+}
+
+.header-nav {
+    margin-left: -2.5rem;
+}
+
+.header-nav ul {
+    display: flex;
+
+    list-style: none;
+
+    padding-left: 0;
+}
+
+.header-nav li a {
+    text-decoration: none;
+
+    padding: 10px;
+
+    color: var(--text-color);
+}
+
+.header-search {
+    position: relative;
+
+    background: var(--bg-btn);
+    height: 40px;
+
+    border-radius: 40px;
+    padding: 10px;
+    margin: 0 10px 0 -20px;
+}
+.search-text {
+    border: none;
+    background: none;
+    outline: none;
+
+    float: right;
+    padding-left: 10px;
+    color: var(--text-color);
+    font-size: 1.5rem;
+
+    /*width: 0px;*/
+    width: 220px;
+    transition: 0.85s;
+}
+
+.search-btn {
+    float: right;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+
+    color: var(--text-color);
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+.header-wishlistCart{
+    display: flex;
+    float: right;
+}
+.header-wishlistCart .dropdown a{
+    text-decoration: none;
+    color: var(--text-color);
+
+    position: relative;
+    padding: 10px;
+    gap: 0 20px;
+}
+.header-wishlistCart .dropdown span{
+    padding-left: 10px;
+}
+.header-wishlistCart .dropdown .themeBadge{
+    position: absolute;
+
+    top: -5px;
+    left: 0;
+
+    border-radius: 50%;
+    text-align: center;
+    min-width: 18px;
+    font-size: 10px;
+    line-height: 18px;
+
+    padding: 0;
+
+    color: var(--white-color);
+    background: #f16945;
+}
+.header-wishlistCart .dropdown ion-icon{
+    font-size: 20px;
+
+    position: absolute;
+
+    top: 7px;
+    left: -14px;
+}

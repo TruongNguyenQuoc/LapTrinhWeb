@@ -1,0 +1,25 @@
+:root{
+    --white-color  : #fff;
+    --text-color :#121212;
+    --gray-color : #797979;
+    --hover-color: #de3241;
+    --black-color : #000000;
+    --lineBorder-color :#DEDEDE;
+    --bg-btn : #f5f3f2;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    max-width: 100%;
+
+    padding: 0 15px;
+    margin: 0 auto;
+}
